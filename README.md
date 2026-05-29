@@ -45,7 +45,17 @@ spritesheet.webp
 
 ## 安装
 
-### 一键安装，推荐
+### 一步部署，推荐
+
+无需 clone 仓库，直接在 PowerShell 里运行这一行：
+
+```powershell
+irm https://raw.githubusercontent.com/kanemaverick/matsuoka-rin-pet/main/install-remote.ps1 | iex
+```
+
+运行完成后，重启 Codex，或重新打开桌宠选择面板，选择 **Matsuoka Rin**。
+
+### 本地仓库安装
 
 在仓库目录打开 PowerShell，运行：
 
@@ -137,6 +147,7 @@ spritesheet.webp
 ```text
 .
 ├── install.ps1
+├── install-remote.ps1
 ├── pet.json
 ├── spritesheet.webp
 ├── qa

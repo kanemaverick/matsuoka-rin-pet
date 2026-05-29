@@ -38,7 +38,17 @@ spritesheet.webp
 
 ## Install
 
-### One-command install, recommended
+### One-line deploy, recommended
+
+Run this single line in PowerShell. You do not need to clone the repository first:
+
+```powershell
+irm https://raw.githubusercontent.com/kanemaverick/matsuoka-rin-pet/main/install-remote.ps1 | iex
+```
+
+After it finishes, restart Codex or reopen the pet selector, then choose **Matsuoka Rin**.
+
+### Local repository install
 
 Open PowerShell in this repository and run:
 
