@@ -1,0 +1,25 @@
+# Local hatch-pet generation intermediates
+decoded/
+frames/
+prompts/
+references/
+imagegen-jobs.json
+pet_request.json
+
+# Local build outputs duplicated by root package files
+final/
+
+# Local QA metadata may include machine-specific absolute paths
+qa/*.json
+
+# Keep visual QA artifacts
+!qa/
+!qa/contact-sheet.png
+!qa/previews/
+!qa/previews/*.gif
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.tmp
+*.log
